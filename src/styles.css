@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+	background:#141414;
+	color: #fff;
+
+}
+input.form-control[type="text"]:hover{
+		border-color: blue
+}
+input.form-control[type="text"]:focus{
+	border-color: clr-primary
+}
